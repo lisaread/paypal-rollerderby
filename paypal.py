@@ -12,9 +12,7 @@ SECRET = config.client_secret
 
 ## Create client
 
-def configurePaypal(id, secret): 
-    print(id)
-    print(secret)   
+def configurePaypal(id, secret):  
     paypalrestsdk.configure({
         'mode': 'sandbox',
         'client_id': id,
